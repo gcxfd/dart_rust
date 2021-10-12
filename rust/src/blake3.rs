@@ -1,7 +1,7 @@
 #![allow(unused_variables)]
 
+use anyhow::Result;
 use flutter_rust_bridge::ZeroCopyBuffer;
-
 use std::convert::TryInto;
 
 pub fn blake3_hash(data: Vec<u8>) -> Result<Vec<u8>> {
